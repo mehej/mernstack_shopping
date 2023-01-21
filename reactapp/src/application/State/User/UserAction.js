@@ -35,7 +35,7 @@ export const signInSignUpUser = (user)=>{
 
 export const logout = ()=>{
     return (dispatch)=>{
-        console.log("removing user session"); 
+        console.log(" user logout"); 
     dispatch(RemoveTheUser());
     
     }
