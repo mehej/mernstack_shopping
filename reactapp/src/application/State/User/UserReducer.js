@@ -15,7 +15,7 @@ let UserReducer = (state=InitialState, action)=>{
         case actionType.USER_ADDUSER:                
             return action.payload;
         case actionType.USER_LOGOUT:
-            return {...InitialState};
+            return {};
            
         default:
              return state;
