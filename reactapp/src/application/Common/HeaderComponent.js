@@ -5,7 +5,7 @@ import { connect, useDispatch,useSelector } from "react-redux";
 import { FaBell } from "react-icons/fa";
 import { getNotification } from "../State/Notification/NotificationAction";
 import NotificationHook from "../AppComponents/NotificationComponent/NotificationHooks";
-import LogoutHook from "../AppComponents/LogoutComponent/LogoutHooks";
+
 
 
 
@@ -25,6 +25,11 @@ let Header = (props)=>{
 
     console.log("username",userName);
     console.log("notification",notification);
+    
+    const dispatch=useDispatch();
+    const logout =()=>{      
+        dispatch(logout());       
+    }
 
    
    
