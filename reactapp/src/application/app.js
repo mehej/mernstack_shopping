@@ -21,7 +21,7 @@ import Coupon from "./AppComponents/CouponComponent/Couponhooks";
 import OrderHook from "./AppComponents/OrderComponent/OrderHooks";
 import ReviewHook from "./AppComponents/ReviewComponent/ReviewHooks";
 import NotificationHook from "./AppComponents/NotificationComponent/NotificationHooks";
-import LogoutHook from "./AppComponents/LogoutComponent/LogoutHooks";
+
 
 export default class ApplicationComponent extends Component{
     constructor(props, context){
