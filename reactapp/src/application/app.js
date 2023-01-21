@@ -60,8 +60,7 @@ export default class ApplicationComponent extends Component{
                         <Route path="/coupon" element={<Coupon />} />
                         <Route path="/order" element={<OrderHook />} />
                         <Route path="/review/:orderid" element={<ReviewHook />} />
-                        <Route path="/notification" element={<NotificationHook />} />
-                        <Route path="/logout" element={<LogoutHook/>} />
+                        <Route path="/notification" element={<NotificationHook />} />                       
                         <Route path="*" element={<NotFound />} />
                 </Routes>
 
