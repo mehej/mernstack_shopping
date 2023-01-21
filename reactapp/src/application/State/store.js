@@ -32,11 +32,7 @@ const rootReducer = combineReducers({
 })
 
 
-const logoutReducer = (state, action) => {
-    if (action.type === 'USER_LOGOUT') {
-      return rootReducer(undefined, action)
-    }
-}
+
 export default configureStore(
     {reducer : rootReducer},
     {},
